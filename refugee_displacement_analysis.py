@@ -76,4 +76,6 @@ plt.grid(True, alpha=0.3)
 current_values = plt.gca().get_yticks()
 plt.gca().set_yticklabels(['{:,.0f}M'.format(x/1000000) for x in current_values])
 
-plt.show()
+# Save the graph as a high-quality image file
+plt.savefig('displacement_forecast_2027.png', dpi=300)
+print("Graph saved successfully as 'displacement_forecast_2027.png'")

@@ -22,3 +22,6 @@ This project analyzes over 10 years of **UNHCR refugee statistics** to identify 
 ## Data Source
 * **Source:** [UNHCR Refugee Data Finder](https://www.unhcr.org/refugee-statistics/download/)
 * **Dataset:** Persons of Concern (Refugees, Asylum Seekers, IDPs).
+
+## Visuals
+![Displacement Forecast](displacement_forecast_2027.png)
