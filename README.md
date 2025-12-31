@@ -68,7 +68,7 @@ $$P(\text{Crisis}) = \frac{1}{M} \sum_{i=1}^{M} \mathbb{I}(N_i > K_{limit})$$
 ### Setup & Execution
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/PradyumnShirsath/Refugee-Displacement-Analysis.git](https://github.com/PradyumnShirsath/Refugee-Displacement-Analysis.git)
+    git clone https://github.com/PradyumnShirsath/unhcr-refugee-analysis.git
     cd Refugee-Displacement-Analysis
     ```
 
