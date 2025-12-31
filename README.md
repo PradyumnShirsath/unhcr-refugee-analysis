@@ -46,7 +46,7 @@ Where:
 ### Forecast Model Output
 ![Forecast Model](displacement_forecast_model.png)
 
-*Figure 1: The **Cone of Uncertainty**. The blue shaded region represents the 90% confidence interval for future displacement, accounting for historical volatility ($\sigma$). The red dotted line marks a hypothetical **Capacity Threshold** ($K_{limit}$), signaling the point where resource demand exceeds supply.*
+*Figure 1: The **Cone of Uncertainty**. The blue shaded region represents the 90% confidence interval for future displacement, accounting for historical volatility (σ). The red dotted line marks a hypothetical **Capacity Threshold** (K_limit), signaling the point where resource demand exceeds supply.*
 
 **Key Insight:** The model does not just predict a single number; it visualizes the **Range of Risk**. The intersection of the *Upper Confidence Bound* and the *Red Threshold* serves as an **Early Warning Signal (EWS)** for policymakers.
 
