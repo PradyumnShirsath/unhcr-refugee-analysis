@@ -5,24 +5,11 @@
 ![Method](https://img.shields.io/badge/Method-Monte_Carlo_Simulation-green?style=flat-square)
 
 ## 🇺🇳 Abstract & Policy Motivation
-The global refugee crisis is characterized by volatility. Traditional humanitarian planning often relies on retrospective analysis ("what happened last year"), leaving agencies reactive rather than proactive.
+The global refugee crisis is characterized by volatility. Traditional humanitarian planning often relies on retrospective analysis ("what happened last year"), which leaves agencies reactive rather than proactive.
 
 **Project Rescue** shifts the operational paradigm from **Reactive Response** to **Anticipatory Intelligence**.
 
 This tool utilizes **Stochastic Monte Carlo Simulations** to forecast future displacement corridors. By modeling geopolitical volatility as a random variable, it identifies the **"Critical Risk Zone"**—the specific timeframe where displacement flows are mathematically projected to overwhelm host country infrastructure (housing, medical capacity, and budget).
-
----
-
-## 📊 Visual Analysis: The "Cone of Uncertainty"
-### Research Question
-*Can we quantify the probability of a humanitarian system collapse 5 years in advance?*
-
-### Forecast Model Output
-![Forecast Model](displacement_forecast_model.png)
-
-*Figure 1: The **Cone of Uncertainty**. The blue shaded region represents the 90% confidence interval for future displacement, accounting for historical volatility ($\sigma$). The red dotted line marks a hypothetical **Capacity Threshold** ($K_{limit}$), signaling the point where resource demand exceeds supply.*
-
-**Key Insight:** The model does not just predict a single number; it visualizes the **Range of Risk**. The intersection of the *Upper Confidence Bound* and the *Red Threshold* serves as an **Early Warning Signal (EWS)** for policymakers.
 
 ---
 
@@ -46,6 +33,19 @@ The engine executes **2,000 parallel simulations** ("random walks") into the fut
 $$P(\text{Crisis}) = \frac{1}{M} \sum_{i=1}^{M} \mathbb{I}(N_i > K_{limit})$$
 
 *(Where $M=2000$ simulations and $K_{limit}$ is the host capacity.)*
+
+---
+
+## 📊 Visual Analysis: The "Cone of Uncertainty"
+### Research Question
+*Can we quantify the probability of a humanitarian system collapse 5 years in advance?*
+
+### Forecast Model Output
+![Forecast Model](displacement_forecast_model.png)
+
+*Figure 1: The **Cone of Uncertainty**. The blue shaded region represents the 90% confidence interval for future displacement, accounting for historical volatility ($\sigma$). The red dotted line marks a hypothetical **Capacity Threshold** ($K_{limit}$), signaling the point where resource demand exceeds supply.*
+
+**Key Insight:** The model does not just predict a single number; it visualizes the **Range of Risk**. The intersection of the *Upper Confidence Bound* and the *Red Threshold* serves as an **Early Warning Signal (EWS)** for policymakers.
 
 ---
 
