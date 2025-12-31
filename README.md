@@ -71,8 +71,7 @@ Where:
 ### Setup & Execution
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/PradyumnShirsath/Refugee-Displacement-Analysis.git](https://github.com/PradyumnShirsath/Refugee-Displacement-Analysis.git)
-    cd Refugee-Displacement-Analysis
+    git clone https://github.com/PradyumnShirsath/unhcr-refugee-analysis.git
     ```
 
 2.  **Install dependencies:**
